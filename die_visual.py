@@ -14,6 +14,7 @@ for roll_num in range(100):
 #Prints the result of each roll
 
 #print(results)
+
 #Analize the results
 frequencies = []
 for value in range(1,die.num_sides+1):
@@ -21,6 +22,7 @@ for value in range(1,die.num_sides+1):
     frequencies.append(frequency)
 
 #print(frequencies)
+
 x_values = list(range(1,die.num_sides+1))
 data = [Bar(x=x_values, y=frequencies)]
 
